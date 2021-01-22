@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class _15653_N°úM_5 {
+public class _15653_Nê³¼M_5 {
 
 	static int N;
 	static int M;

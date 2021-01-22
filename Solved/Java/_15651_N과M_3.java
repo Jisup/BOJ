@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class _15651_N°úM_3 {
+public class _15651_Nê³¼M_3 {
 
 	static int N;
 	static int M;
