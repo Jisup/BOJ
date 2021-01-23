@@ -4,8 +4,7 @@ import java.util.Scanner;
 public class _15656_N과M_7 {
 	static final int MAX = 7;
 	
-	static int N;
-	static int M;
+	static int N, M;
 	static int ary[];
 	static int temp[] = new int[MAX];
 	static boolean visit[] = new boolean[MAX];
