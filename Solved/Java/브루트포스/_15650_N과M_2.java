@@ -1,4 +1,4 @@
-
+package 브루트포스;
 import java.util.Scanner;
 
 public class _15650_N과M_2 {

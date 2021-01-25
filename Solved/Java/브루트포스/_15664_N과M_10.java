@@ -1,9 +1,10 @@
+package 브루트포스;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.Scanner;
 
-public class _15663_N과M_9 {
+public class _15664_N과M_10 {
 
 	static int N;
 	static int M;
@@ -21,7 +22,7 @@ public class _15663_N과M_9 {
 			h.add(input+"\n");
 			return;
 		}
-		for(int i=0;i<N;i++) {
+		for(int i=index+1;i<N;i++) {
 			if (!visit[i]) {
 				visit[i]=true;
 				temp[cnt]=ary[i];

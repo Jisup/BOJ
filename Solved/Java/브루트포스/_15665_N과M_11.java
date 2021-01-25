@@ -1,10 +1,11 @@
-
+package 브루트포스;
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.Scanner;
 
-public class _15666_N과M_12 {
-	static final int MAX = 8;
+public class _15665_N과M_11 {
+	static final int MAX = 7;
 	
 	static int N;
 	static int M;
@@ -14,7 +15,7 @@ public class _15666_N과M_12 {
 	static StringBuilder sb = new StringBuilder();
 	static LinkedHashSet<String> h = new LinkedHashSet<String>();
 	
-	static void permutation(int index, int cnt) {
+	static void permutation(int cnt) {
 		if (cnt == M) {
 			String input="";
 			for(int item : temp)
@@ -23,9 +24,9 @@ public class _15666_N과M_12 {
 				sb.append(input+"\n");
 			return;
 		}
-		for (int i = (cnt==0?0:index); i < N; i++) {
+		for (int i = 0; i < N; i++) {
 			temp[cnt] = ary[i];
-			permutation(i, cnt + 1);
+			permutation(cnt + 1);
 		}
 	}
 
@@ -42,10 +43,8 @@ public class _15666_N과M_12 {
 			ary[i] = sc.nextInt();
 		Arrays.sort(ary);
 		
-		permutation(0, 0);
+		permutation(0);
 		System.out.print(sb);
 		sc.close();
 	}
-
-
 }
