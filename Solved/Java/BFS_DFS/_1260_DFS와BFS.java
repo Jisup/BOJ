@@ -23,10 +23,9 @@ public class _1260_DFS와BFS {
 	static StringBuilder sb = new StringBuilder();
 
 	static void init() throws IOException {
-		// Scanner와 Buffredreader은 중복해서사용하면 안된다
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
-
+		
 		N = Integer.parseInt(st.nextToken());
 		M = Integer.parseInt(st.nextToken());
 		V = Integer.parseInt(st.nextToken());
