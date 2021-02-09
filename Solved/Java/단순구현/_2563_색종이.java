@@ -11,8 +11,8 @@ public class _2563_색종이 {
 			int x = sc.nextInt();
 			int y = sc.nextInt();
 			solve(y, x);
-			result();
 		}
+		result();
 	}
 	static void solve(int y, int x) {
 		for(int i=y;i<y+10;i++)
