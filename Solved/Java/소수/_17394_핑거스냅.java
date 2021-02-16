@@ -5,11 +5,11 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-class Pair {
+class Pair_17394 {
 	int value;
 	int cnt;
 
-	Pair(int value, int cnt) {
+	Pair_17394(int value, int cnt) {
 		this.value = value;
 		this.cnt = cnt;
 	}
@@ -66,11 +66,11 @@ public class _17394_핑거스냅 {
 //		위와같이 할당하였을때 런타임에러뜸 -> 왤까?
 		Arrays.fill(visit, false);
 		
-		Queue<Pair>q=new LinkedList<Pair>();
-		q.add(new Pair(index, 0));
+		Queue<Pair_17394>q=new LinkedList<Pair_17394>();
+		q.add(new Pair_17394(index, 0));
 		visit[index]=true;
 		while(!q.isEmpty()) {
-			Pair out = q.poll();
+			Pair_17394 out = q.poll();
 			if (range(out.getValue(), fs, se))	
 				return out.getCnt();
 			
@@ -93,7 +93,7 @@ public class _17394_핑거스냅 {
 				}
 				if (nv <= 0 || visit[nv]) continue;
 				visit[nv] = true;
-				q.add(new Pair(nv, nc));
+				q.add(new Pair_17394(nv, nc));
 			}
 		}
 		return -1;
