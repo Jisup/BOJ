@@ -2,10 +2,10 @@ package 브루트포스;
 
 import java.util.Scanner;
 
-class Data {
+class Data_2961 {
 	int sin;
 	int sen;
-	Data(int sin, int sen) {
+	Data_2961(int sin, int sen) {
 		this.sin=sin;
 		this.sen=sen;
 	}
@@ -16,7 +16,7 @@ public class _2961_도영이가_만든_맛있는_음식 {
 	static int Cnt;
 	static int Value = Integer.MAX_VALUE;
 	
-	static Data dish[] = new Data[MAX];
+	static Data_2961 dish[] = new Data_2961[MAX];
 	static int ary[] = new int[MAX];
 	static boolean visit[] = new boolean[MAX];
 	static void solve(int cnt) {
@@ -47,7 +47,7 @@ public class _2961_도영이가_만든_맛있는_음식 {
 		Scanner sc = new Scanner(System.in);
 		N = sc.nextInt();
 		for(int i=0;i<N;i++)
-			dish[i] = new Data(sc.nextInt(), sc.nextInt());
+			dish[i] = new Data_2961(sc.nextInt(), sc.nextInt());
 		for(int i=1;i<=N;i++) {
 			Cnt = i;
 			solve(0);
