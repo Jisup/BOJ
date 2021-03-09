@@ -27,7 +27,7 @@ public class _2564_경비원 {
 	                dist[i] = C + value;
 	                break;
 	            }
-	        }
+	        } 
 	        int myDist = dist[N];
 	        int ans = 0;
 	        for(int i = 0; i < N; i++) {

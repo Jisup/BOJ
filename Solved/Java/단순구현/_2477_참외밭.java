@@ -15,7 +15,7 @@ public class _2477_참외밭 {
 		int H=0, W=0;
 		int h=0, w=0;
 		int ary[] = new int[6];
-		for(int i=0;i<6;i++) {
+		for(int i=0;i<6;i++) { 
 			sc.nextInt();
 			ary[i] = sc.nextInt();
 		}

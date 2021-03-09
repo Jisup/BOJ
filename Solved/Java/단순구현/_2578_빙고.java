@@ -56,7 +56,7 @@ public class _2578_빙고 {
 					}
 				}
 				cnt++;
-				if (result >= 3) {
+				if (result >= 3) { 
 					System.out.println(cnt);
 					return;
 				}
